@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral Estilizado</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        #menu {
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            position: fixed;
+            left: 0;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            color: #fff;
+        }
+
+        #menu a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #menu a:hover {
+            background-color: #555;
+        }
+
+        #conteudo {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        #logo {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        #logo a {
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        #logo a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div id="logo">
+        </div>
+        <a href="#">Início</a>
+        <a href="#">Cadastro</a>
+    </div>
+
+    <div id="conteudo">
+        <!-- Conteúdo da página aqui -->
+        <h1>Bem-vindo à página Inicial</h1>
+        <p>Este é o conteúdo da página Inicial.</p>
+    </div>
+</body>
+</html>
